@@ -18,7 +18,7 @@ import ContactSection from './components/ContactSection.vue';
     <ProjectSection/>
     <ExperienceTimeline/>
     <ContactSection/>
-    <div style="height: 1000px;">
+    <div style="height: auto;">
     </div>
   </main>
 </template>
