@@ -161,4 +161,35 @@
   50% { border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%; }
   100% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; }
 }
+
+/* Responsive adjustments for smaller screens (phones, iPhone 17 Pro Max width ~430px) */
+@media (max-width: 768px) {
+  .hero-container { gap: 1rem; }
+  .name { font-size: 3.2rem; }
+  .role { font-size: 1.4rem; }
+}
+
+@media (max-width: 430px) {
+  .hero {
+    padding-top: 80px; /* ensure space for fixed navbar */
+  }
+
+  .hero-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  .hero-content { width: 100%; }
+
+  .name { font-size: 2.6rem; }
+  .role { font-size: 1.1rem; }
+  .pitch { font-size: 1rem; line-height: 1.5; }
+
+  .hero-buttons { flex-direction: column; width: 100%; }
+  .hero-buttons .btn-primary, .hero-buttons .btn-secondary { width: 100%; text-align: center; }
+
+  /* Hide the large visual on small screens to save space */
+  .hero-visual { display: none; }
+}
 </style>
