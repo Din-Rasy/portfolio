@@ -9,7 +9,6 @@
       <div class="skill-card">
         <div class="card-header">
           <h3>Front-End</h3>
-          <span class="icon">&lt;/&gt;</span>
         </div>
         <ul class="skill-list">
           <li>Vue.js</li>
@@ -22,7 +21,6 @@
       <div class="skill-card">
         <div class="card-header">
           <h3>Back-End</h3>
-          <span class="icon">{ }</span>
         </div>
         <ul class="skill-list">
           <li>Spring Boot</li>
@@ -34,7 +32,6 @@
       <div class="skill-card">
         <div class="card-header">
           <h3>Databases</h3>
-          <span class="icon">[( )]</span>
         </div>
         <ul class="skill-list">
           <li>MySQL</li>
@@ -46,7 +43,6 @@
       <div class="skill-card">
         <div class="card-header">
           <h3>Tools & DevOps</h3>
-          <span class="icon">#_</span>
         </div>
         <ul class="skill-list">
           <li>Docker</li>
@@ -127,13 +123,6 @@
 .card-header h3 {
   font-size: 1.3rem;
   color: var(--text-primary);
-}
-
-.icon {
-  font-family: var(--font-code);
-  font-size: 1.2rem;
-  color: var(--accent-purple);
-  font-weight: bold;
 }
 
 .skill-list {

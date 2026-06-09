@@ -20,8 +20,8 @@
             Micro Task platform connecting users with everyday or personal requests.
           </p>
           <div class="project-links">
-            <a href="#" class="link-btn">Live Demo</a>
-            <a href="#" class="link-btn outline">GitHub</a>
+            <a href="https://github.com/IP2-Project" class="link-btn">Live Demo</a>
+            <a href="https://github.com/IP2-Project" class="link-btn outline">GitHub</a>
           </div>
         </div>
       </div>
@@ -38,8 +38,8 @@
             Online store with dynamic product display, search functionality, and an integrated shopping cart.
           </p>
           <div class="project-links">
-            <a href="https://www.youtube.com/@rasydin-d7p" class="link-btn">Live Demo</a>
-            <a href="https://github.com/Perfume-E-commer/Perfume-e-commerce-website" class="link-btn outline">GitHub</a>
+            <a href="https://github.com/Perfume-E-commer" class="link-btn">Live Demo</a>
+            <a href="https://github.com/Perfume-E-commer" class="link-btn outline">GitHub</a>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@
             Web-based system designed for student enrollment featuring complete CRUD operations and user authentication.
           </p>
           <div class="project-links">
-            <a href="https://www.youtube.com/@rasydin-d7p" class="link-btn">Live Demo</a>
+            <a href="https://github.com/Chumdararith-LOU/Project-3-Course-Enrollment-and-Classroom-Scheduling-System" class="link-btn">Live Demo</a>
             <a href="https://github.com/Chumdararith-LOU/Project-3-Course-Enrollment-and-Classroom-Scheduling-System" class="link-btn outline">GitHub</a>
           </div>
         </div>
