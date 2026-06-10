@@ -28,6 +28,7 @@
         <a href="https://www.linkedin.com/in/din-rasy-2511423b1/?skipRedirect=true" class="social-btn">LinkedIn</a>
         <a href="https://github.com/Din-Rasy" class="social-btn">GitHub</a>
         <a href="https://www.youtube.com/@rasydin-d7p" class="social-btn">YouTube</a>
+        <a href="https://t.me/Din_Rasy" class="social-btn">Telegram</a>
       </div>
     </div>
 

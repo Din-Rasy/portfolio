@@ -8,7 +8,7 @@
         <p class="greeting">Hi, I'm</p>
         <h1 class="name">DIN RASY</h1>
         <h2 class="role">
-          Full-Stack Web Developer <span class="cursor">&nbsp;</span>
+          <span class="typing">Full-Stack Web Developer</span>
         </h2>
         <p class="pitch">
           Fourth-year Information and Communication Engineering student passionate about building innovative software solutions and driving digital innovation.
@@ -77,16 +77,24 @@
   font-weight: 500;
 }
 
-.cursor {
+
+.typing {
   display: inline-block;
-  width: 10px;
-  background-color: var(--accent-blue);
-  animation: blink 1s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .12em solid var(--accent-blue);
+  animation: typing 2.5s steps(24, end), blink-caret .75s step-end infinite;
+  font-weight: 500;
+  vertical-align: bottom;
 }
 
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+@keyframes typing {
+  from { width: 0; }
+  to { width: 24ch; }
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent; }
 }
 
 .pitch {
